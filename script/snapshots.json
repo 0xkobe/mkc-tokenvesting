@@ -1,0 +1,17 @@
+[
+  {
+    "wallet": "0x77AcD18484430203212dc67C9b5362d0ABACE8de",
+    "balance": "786273143.366923017257791783",
+    "type": "address"
+  },
+  {
+    "wallet": "0x1976e5607aB7D163E5DA2F6D427aD1868e967f97",
+    "balance": "28366024.217812665452731239",
+    "type": "address"
+  },
+  {
+    "wallet": "0x1976e5607aB7D163E5DA2F6D427aD1868e967f97",
+    "balance": "0.00000000000000",
+    "type": "address"
+  }
+]
