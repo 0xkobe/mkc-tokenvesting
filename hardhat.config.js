@@ -15,6 +15,26 @@ module.exports = {
     currency: "USD",
   },
   networks: {
+    avax: {
+      chainId: 43114,
+      url: "https://api.avax.network/ext/bc/C/rpc",
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
+    },
+    bsc: {
+      chainId: 56,
+      url: "https://bsc-dataseed.binance.org",
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
+    },
+    tavax: {
+      chainId: 43113,
+      url: "https://api.avax-test.network/ext/bc/C/rpc",
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
+    },
+    tbsc: {
+      chainId: 97,
+      url: "https://data-seed-prebsc-1-s1.binance.org:8545",
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
+    },
     hardhat: {
       allowUnlimitedContractSize: true,
     },
